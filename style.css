@@ -25,9 +25,9 @@ body {
 
 
 .primeiroTexto input {
-    padding: 0 60px;
-   height: 30px;
-   border-radius: 3px;  
+    padding: 0 70px;
+    height: 30px;
+    border-radius: 3px;  
 }
 
 
@@ -36,7 +36,7 @@ body {
    color: white;
    border-radius: 3px;
    padding: 0 40px;
-   height: 30px;
+   height: 20px;
    border: none;
    cursor: pointer;
 }
@@ -132,7 +132,7 @@ body {
     background: hsl(224, 93%, 58%);
     color: white;
     padding: 15px;
-    width: 200px;
+    width: 190px;
     border-radius: 5px;
     border: none;
     margin-top: 10px;
@@ -140,5 +140,24 @@ body {
 
 .rodape {
     background: hsl(243, 87%, 12%);
-   padding: 10%;
+    color: white;
+    padding: 8%;
+    display: flex;
+    align-items: center;
 }
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+ .phone img {
+     padding: 10px;
+ }
+.email {
+    display: flex;
+    align-items: center;
+}
+.email img {
+    padding: 10px;
+}
+
