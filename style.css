@@ -1,0 +1,144 @@
+body {
+    font-family: Raleway;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-right: 20px;
+    align-items: center;
+    background: white;
+    width: 97%;
+   
+}
+
+.menu a {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.primeiroTexto {
+    display: flex;
+    align-items: center;
+}
+
+
+.primeiroTexto input {
+    padding: 0 60px;
+   height: 30px;
+   border-radius: 3px;  
+}
+
+
+.primeiroTexto button {
+   background: rgb(45, 45, 232);
+   color: white;
+   border-radius: 3px;
+   padding: 0 40px;
+   height: 30px;
+   border: none;
+   cursor: pointer;
+}
+
+.primeiroTexto img {
+    width: 50%;
+}
+
+.segundoTexto {
+    display: flex;
+    align-items: center;
+    background-color: hsl(240, 75%, 98%);
+    margin-top: -5px;
+    justify-content: space-between;
+}
+
+.segundoTexto img {
+    width: 45%;
+}
+
+.botao {
+    display: inline-flex;
+    border-bottom: 1px solid green;
+    padding: 10px;
+    color: green;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.botao img {
+    width: 20px;
+}
+
+.paragrafo {
+    width: 45%;
+}
+
+.card {
+   width: 350px;
+   background: white;
+   border-radius: 10px;
+   margin-left: 50px;
+   margin-top: 50px;
+   padding: 15px;
+}
+.card img {
+    width: 20px;
+    padding: 20px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+.avatar img{
+    width: 40px;
+    border-radius: 100%;
+}
+
+.nome {
+    
+}
+
+.nome h2 {
+    font-size: 10px;
+}
+
+.nome p {
+    font-size: 10px;
+}
+
+.terceiroTexto {
+    background: hsl(238, 22%, 44%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.terceiroTexto p {
+    width: 70%;
+}
+
+.formulario input {
+    padding: 15px;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+}
+
+.formulario button {
+    background: hsl(224, 93%, 58%);
+    color: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+.rodape {
+    background: hsl(243, 87%, 12%);
+   padding: 10%;
+}
