@@ -1,5 +1,6 @@
 body {
     font-family: Raleway;
+    margin: 0;
 }
 
 .menu {
@@ -21,22 +22,30 @@ body {
 .primeiroTexto {
     display: flex;
     align-items: center;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+
 }
 
 
 .primeiroTexto input {
     padding: 0 70px;
     height: 30px;
-    border-radius: 3px;  
+    border-radius: 3px;
+    border: 1px solid #cbcbcb; 
+     
 }
 
 
-.primeiroTexto button {
+ .form button {
    background: rgb(45, 45, 232);
    color: white;
    border-radius: 3px;
    padding: 0 40px;
-   height: 20px;
    border: none;
    cursor: pointer;
 }
@@ -51,6 +60,7 @@ body {
     background-color: hsl(240, 75%, 98%);
     margin-top: -5px;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .segundoTexto img {
@@ -161,3 +171,22 @@ body {
     padding: 10px;
 }
 
+.colunaDois {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footerMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerMenu a {
+    padding: 8px 0;
+}
+
+.imagem img {
+    fill: white;
+    padding: 0 10px;
+}
